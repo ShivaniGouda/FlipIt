@@ -1,0 +1,204 @@
+body, html {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-jade {
+  background-color: #679267;
+}
+
+.bg-emerald {
+  background-color: #50C878;
+}
+
+.bg-teal {
+  background-color: #008080;
+}
+
+.bg-orange {
+  background-color: #FF6F3C;
+}
+
+.text-jade {
+  color: #679267;
+}
+
+.text-emerald {
+  color: #50C878;
+}
+
+.text-teal {
+  color: #008080;
+}
+
+.text-orange {
+  color: #FF6F3C;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.text-white {
+  color: #FFFFFF;
+}
+
+.navbar {
+  background-color: #FFF9F0;
+}
+
+.navbar .navbar-brand {
+  color: #000000;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.navbar .nav-link {
+  position: relative;
+  text-decoration: none;  /* Remove default underline */
+  color: #000000;  /* Link color */
+  font-weight: 500;
+  padding-bottom: 5px;  /* Adds space for the underline */
+}
+
+.navbar .nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;  /* Position the underline directly below the text */
+  width: 0;
+  height: 2px;
+  background-color: #008080;  /* Underline color */
+  transition: width 0.3s ease;  /* Smooth transition */
+}
+
+.navbar .nav-link:hover::after {
+  width: 100%;  /* Expand to full width */
+}
+
+/* .navbar .nav-link {
+  color: #000000;
+  font-weight: 500;
+} */
+
+/* .navbar .nav-link:hover {
+  color: #BAD6EB;
+} */
+
+.navbar .btn-login {
+  background-color: #008080; /* Orange Background */
+  color: #FFFFFF;  /* Text and icon color */
+  border: 2px solid #008080; /* Same as background */
+  padding: 8px 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;  /* Space between icon and text */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.navbar .btn-login:hover {
+  background-color: transparent;
+  color: #008080;  /* Orange color for text and icon */
+  border-color: #008080;  /* Orange outline */
+}
+
+/* .navbar .btn-login {
+  background-color: #50C878;
+  color: #fffcfc;
+  border: none;
+  padding: 8px 16px;
+  font-weight: 500;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar .btn-login:hover {
+  background-color: transparent;
+  color: #50C878;
+  border: 2px solid #50C878;
+} */
+
+
+.hero {
+  background-image: url('C:/Users/shiva/OneDrive/Desktop/login-system/banner.png');  /* Replace with the correct path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #FFFFFF;
+}
+
+/* .hero {
+  background-color: #D0E3FF;
+  color: #000000;
+  padding: 80px 0;
+} */
+
+.hero .btn-orange {
+  background-color: #FF6F3C;
+  color: #FFFFFF;
+}
+
+
+.hero .btn-get-started {
+  background-color: #FF6F3C; /* Orange Background */
+  color: #FFFFFF;  /* Text and icon color */
+  border: 2px solid #FF6F3C; /* Same as background */
+  padding: 8px 16px;  /* Reduced padding */
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;  /* Space between icon and text */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  width: fit-content;  /* Adjusts width to fit content */
+}
+
+.hero .btn-get-started:hover {
+  background-color: transparent;
+  color: #FF6F3C;  /* Orange color for text and icon */
+  border-color: #FF6F3C;  /* Orange outline */
+}
+
+
+/* .hero-content .btn-get-started {
+  background-color: #ff5050;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  color: #fff;
+  transition: background 0.3s ease;
+} */
+
+
+
+.hero .btn-orange:hover {
+  background-color: #008080;
+}
+
+.about {
+  background-color: #7096D1;
+  color: #ffffff;
+  padding: 60px 0;
+}
+
+.services {
+  background-color: #081F5C;
+  color: #FFFFFF;
+  padding: 60px 0;
+}
+
+.footer {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 20px 0;
+}
+
+.footer p {
+  margin: 0;
+}
